@@ -110,9 +110,9 @@ width: 100%;
     
 }
 
-.break_line{
+.break-line{
 
-    border: 0.1px solid black;
+    border: 0.5px solid lightgray;
 
 }
 
@@ -160,6 +160,7 @@ width: 100%;
     display: flex;
     width: 100%;
     height: 500p;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -189,5 +190,171 @@ width: 100%;
     padding: 0px 2px;
     text-align: center;
     margin-left: 43px;
+
+}
+
+.course_area{
+
+    padding:31px ;
+}
+
+
+
+.hI{
+
+
+}
+
+.pp{
+
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:rgb(62, 46, 46);
+}
+
+.list_of_courses{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 869px;
+
+}
+
+
+.list_of_courses a{
+
+    text-decoration: none;
+    color: rgb(108, 97, 102);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+
+}
+
+.list_of_courses a :hover{
+    cursor: pointer;
+    color: black;
+}
+.linker:hover{
+    cursor: pointer;
+    color: black;
+}
+#active{
+
+    color: black;
+
+}
+
+
+.content_area{
+
+
+    width: 100%;
+    height: auto;
+    background-color:white;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+}
+
+.courses_area-p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(83, 79, 81);
+}
+
+.explore{
+
+    margin-top: 20px;
+    background-color: white;
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 500;
+
+}
+
+
+.container{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    height: auto;
+}
+
+.coursesImg{
+
+    width: 20%;
+    height: 220px;
+    margin-top: 35px;
+    
+    
+    /*background-color: red;*/
+    
+}
+.coursephotot{
+
+    /*border: .5px solid rgb(70, 177, 180);*/
+    display: flex;
+
+}
+
+.imgger{
+
+    border: 1px solid rgb(36, 149, 149);
+
+}
+.course_details{
+    margin-top: 10px;
+
+}
+
+.course_details a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    
+}
+
+
+.checked {
+    color: orange;
+  }
+
+
+.instructor_name{
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: rgb(109, 115, 121);
+}
+  
+.rate_of_course{
+
+    font-size:small;
+    font-weight: 600;
+    color: orange;
+
+}
+
+.price_of_course{
+
+    display: block;
+    margin: 5px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+
 
 }
