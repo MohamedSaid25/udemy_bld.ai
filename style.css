@@ -72,6 +72,26 @@ width: 100%;
     
 }
 
+.icon_search{
+
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .to_submit{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: none;
+    padding: 0;
+    border: none;
+    background: none;
+  }
+  .to_submit:hover{
+
+    cursor: pointer;
+
+  }
 .mid_section{
 
     display: flex;
@@ -149,7 +169,9 @@ width: 100%;
 
     cursor: pointer;
 }
-
+.login , .sign_up , .langI , .shop :hover{
+    cursor: pointer;
+}
 .befor_course{
 
     display: flex;
@@ -386,7 +408,7 @@ width: 100%;
     .list_of_courses{
         flex-wrap: wrap;
         width: 100%;
-        
+
     }
     
     
