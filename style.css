@@ -462,6 +462,9 @@ width: 100%;
         width: 12%;
     }
     
+    .to_submit{
+        display: none;
+    }
     
 
 }
