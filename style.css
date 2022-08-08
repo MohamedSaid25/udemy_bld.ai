@@ -30,11 +30,12 @@ body {
 
     display: flex;
     align-items: center;
-    
-    
 
 }
 
+.mene_logo{
+    display: none;
+}
 .left_section img {
 
     width: 7%;
@@ -66,6 +67,7 @@ width: 100%;
     /*border-top-left-radius:25px ;
     border-bottom-left-radius:25px ;*/
     padding: 10px;
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
@@ -316,6 +318,14 @@ width: 100%;
     width: 98%;
 
 }
+
+.imgger  :hover{
+    cursor: pointer;
+}
+
+.instructor_name:hover{
+    cursor: pointer;
+}
 .course_details{
     margin-top: 10px;
 
@@ -360,3 +370,77 @@ width: 100%;
 
 
 }
+
+
+@media only screen and (max-width: 816px) {
+    .container{
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .coursesImg{
+
+        margin: 50px 0;
+        width: 85%;
+    }
+    .list_of_courses{
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    
+    
+    .mid_section , .right_section{
+        display: none;
+    }
+   
+    .left_section .cat,.searchBar{
+        display: none;
+    }
+    .info{
+        position:relative;
+        background-color: none;
+        box-shadow: none;
+        margin-top: 20px;
+    }
+    .befor_course{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 216px;
+    }
+
+    .justHeader , .quote{
+
+        margin-top: -10%;
+    }
+    
+    .left_section{
+        display: flex;
+        width: 100%;
+        
+    }
+    .mene_logo{
+        display: flex;
+    }
+
+    .udemy_logo{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 24px;
+        bottom: -38px;
+        margin-right: 59px;
+        width: 5%;
+    }
+
+    .left_section img{
+
+        width: 12%;
+    }
+    
+    
+
+}
+
