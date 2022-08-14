@@ -1,0 +1,115 @@
+{
+
+    "course":[
+        {
+         "id":1,
+            "title":"Python for Beginners - Learn  programming from scratch",
+            "image":"images/img1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        } ,
+    
+        {
+            "id":2,
+            "title":"Learning python for Data Analysis and Visualization",
+            "image":"images/img2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        },
+       
+        {
+            "id":3,
+            "title":"Learn Python: Python for Beginners",
+            "image":"images/img3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        },
+
+        {
+            "id":4,
+            "title":"Python Boeyond the Basics - Object-Oriented programming",
+            "image":"images/img4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+        ,
+
+        {
+            "id":5,
+            "title":"python for data science and machine learning bootcamp",
+            "image":"images/img5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+        ,
+
+        {
+            "id":6,
+            "title":"The Python Mega Course: Build 10 Real World Applications",
+            "image":"images/img6.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+
+        ,
+
+        {
+            "id":7,
+            "title":"The Python Mega Course: Build 10 Real World Applications",
+            "image":"images/img7.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        },
+        
+
+        {
+            "id":8,
+            "title":"The Python Mega Course: Build 10 Real World Applications",
+            "image":"images/img8.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+        ,
+
+        {
+            "id":9,
+            "title":"The Python Mega Course: Build 10 Real World Applications",
+            "image":"images/img9.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+        ,
+
+        {
+            "id":10,
+            "title":"The Python Mega Course: Build 10 Real World Applications",
+            "image":"images/img10.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"Python"
+        }
+
+
+]
+
+
+}
