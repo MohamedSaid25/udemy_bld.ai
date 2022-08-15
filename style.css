@@ -249,8 +249,11 @@ width: 100%;
 }
 
 
-.list_of_courses a{
+.list_of_courses button{
 
+
+    border: 0;
+    background-color: white;
     text-decoration: none;
     color: rgb(108, 97, 102);
 
@@ -260,7 +263,7 @@ width: 100%;
 
 }
 
-.list_of_courses a :hover{
+.list_of_courses button :hover{
     cursor: pointer;
     color: black;
 }

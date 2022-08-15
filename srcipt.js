@@ -2,45 +2,33 @@
 
 // Too Wrong Too pass Too Correct To Fail
 
-/*
-
-// create a brand new <span> element
-const newSpan = document.createElement('span');
-newSpan.textContent = 'This is span';
-// select the first (main) heading of the page
-const mainHeading = document.querySelector(".container");
-// add the <span> element as the last child element of the main heading
-console.log(mainHeading);
-mainHeading.appendChild(newSpan);
-
-*/
- 
-
 
  let containerSelector = document.querySelector(".container"); 
-
-// console.log(containerSelector);
-
 
 
 // Fetch data of courses 
 
+function getCoursesFromServe(checkCategory){
 
-fetch("http://localhost:3000/course")
+    fetch("http://localhost:3000/course")
     .then(res => res.json())
     .then(json=>{
         json.map(data=>{
-            console.log(data.title)
-            containerSelector.appendChild(createDiv(data.title,data.image,data.instrutorName));
+            //console.log(data.title)
+            if(checkCategory===data.category)
+            containerSelector.appendChild(DrawCard(data.title,data.image,data.instrutorName));
         })
     })
+}
+
+
 
 
 
 // create div for course
 
 
-function createDiv(title,image,instrutorName){
+function DrawCard(title,image,instrutorName){
 
     let d=document.createElement('div');
     d.classList.add("coursesImg");
@@ -72,4 +60,130 @@ function createDiv(title,image,instrutorName){
 
     return d;
 }
+
+
+
+/// all you need is  getCoursesFromServe("what you need")
+
+
+window.addEventListener('load', (event) => {
+    
+    
+    getCoursesFromServe("python");
+});
+
+
+
+const holdExcel = document.querySelector('.excel');
+const holdPython = document.querySelector('.python');
+const holdWeb = document.querySelector('.web');
+const holdAws = document.querySelector('.aws');
+const holdDs = document.querySelector('.ds');
+const holdDraw = document.querySelector('.draw');
+const holdJs = document.querySelector('.js');
+const holdSubmit=document.querySelector('.to_submit');
+const holdSearchBar=document.querySelector('.searchBar');
+
+function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
+
+holdExcel.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("excel");
+
+});
+
+holdPython.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("python");
+
+});
+
+holdWeb.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("web");
+
+});
+
+holdAws.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("aws");
+
+});
+
+holdDs.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("data");
+
+});
+
+holdDraw.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("draw");
+
+});
+
+holdJs.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe("java");
+
+});
+
+
+const MainCategory = ['python','java','web','aws','excel','draw','data'];
+
+
+holdSubmit.addEventListener('click', function (event) {
+
+    
+    removeAllChildNodes(containerSelector);
+    
+    event.preventDefault();
+    
+    let toSearch;
+
+    const textTyped = holdSearchBar.value;
+
+    for(let i=0;i<MainCategory.length;i++){
+        
+        if(textTyped.includes(MainCategory[i]))
+        {
+            toSearch=MainCategory[i];
+            break;
+        }
+    }
+
+    removeAllChildNodes(containerSelector);
+    
+    getCoursesFromServe(toSearch);
+
+    holdSearchBar.value='';
+
+});
+
 

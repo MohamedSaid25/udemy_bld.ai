@@ -8,7 +8,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         } ,
     
         {
@@ -18,7 +18,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         },
        
         {
@@ -28,7 +28,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         },
 
         {
@@ -38,7 +38,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         }
         ,
 
@@ -49,7 +49,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         }
         ,
 
@@ -60,7 +60,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         }
 
         ,
@@ -72,7 +72,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         },
         
 
@@ -83,7 +83,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         }
         ,
 
@@ -94,7 +94,7 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
         }
         ,
 
@@ -105,7 +105,336 @@
             "instrutorName":"Avinash Jain, The Codex",
             "rate":4.4,
             "price":"E£400.99",
-            "category":"Python"
+            "category":"python"
+        }
+        ,
+
+        {
+            "id":11,
+            "title":"Learn Excel 2022",
+            "image":"images/excel1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"excel"
+        }
+        ,
+
+        {
+            "id":12,
+            "title":"Learn Excel 2022",
+            "image":"images/excel2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"excel"
+        }
+        ,
+
+        {
+            "id":13,
+            "title":"Learn Excel 2022",
+            "image":"images/excel3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"excel"
+        }
+        ,
+
+        {
+            "id":14,
+            "title":"Learn Excel 2022",
+            "image":"images/excel4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"excel"
+        }
+        ,
+
+        {
+            "id":15,
+            "title":"Learn Excel 2022",
+            "image":"images/excel5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"excel"
+        }
+        ,
+
+        {
+            "id":16,
+            "title":"Learn Web Development 2022",
+            "image":"images/web1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"web"
+        }
+        ,
+        {
+            "id":17,
+            "title":"Learn Web Development 2022",
+            "image":"images/web2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"web"
+        }
+        ,
+        {
+            "id":18,
+            "title":"Learn Web Development 2022",
+            "image":"images/web3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"web"
+        }
+        ,
+
+        {
+            "id":19,
+            "title":"Learn Web Development 2022",
+            "image":"images/web4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"web"
+        }
+        ,
+
+        {
+            "id":20,
+            "title":"Learn Web Development 2022",
+            "image":"images/web5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"web"
+        }
+        ,
+
+        {
+            "id":21,
+            "title":"Learn JavaScript 2022",
+            "image":"images/js1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"java"
+        }
+        ,
+
+        {
+            "id":22,
+            "title":"Learn JavaScript 2022",
+            "image":"images/js2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"java"
+        }
+        ,
+
+        {
+            "id":23,
+            "title":"Learn JavaScript 2022",
+            "image":"images/js3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"java"
+        }
+        ,
+
+        {
+            "id":24,
+            "title":"Learn JavaScript 2022",
+            "image":"images/js4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"java"
+        }
+        ,
+
+        {
+            "id":25,
+            "title":"Learn JavaScript 2022",
+            "image":"images/js5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"java"
+        }
+        ,
+
+        {
+            "id":26,
+            "title":"Learn Data Science 2022",
+            "image":"images/ds1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"data"
+        }
+
+        ,
+
+        {
+            "id":27,
+            "title":"Learn Data Science 2022",
+            "image":"images/ds2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"data"
+        }
+        ,
+
+        {
+            "id":28,
+            "title":"Learn Data Science 2022",
+            "image":"images/ds3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"data"
+        }
+        ,
+
+        {
+            "id":29,
+            "title":"Learn Data Science 2022",
+            "image":"images/ds4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"data"
+        }
+        ,
+
+        {
+            "id":30,
+            "title":"Learn Data Science 2022",
+            "image":"images/ds5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"data"
+        }
+        ,
+
+        {
+            "id":31,
+            "title":"Learn AWS 2022",
+            "image":"images/aws1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"aws"
+        }
+        ,
+
+        {
+            "id":32,
+            "title":"Learn AWS 2022",
+            "image":"images/aws2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"aws"
+        }
+        ,
+
+        {
+            "id":33,
+            "title":"Learn AWS 2022",
+            "image":"images/aws3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"aws"
+        }
+        ,
+
+        {
+            "id":34,
+            "title":"Learn AWS 2022",
+            "image":"images/aws4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"aws"
+        }
+        ,
+
+        {
+            "id":35,
+            "title":"Learn AWS 2022",
+            "image":"images/aws5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"aws"
+        }
+        ,
+
+        {
+            "id":36,
+            "title":"Learn Drawing 2022",
+            "image":"images/draw1.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"draw"
+        }
+        ,
+
+        {
+            "id":37,
+            "title":"Learn Drawing 2022",
+            "image":"images/draw2.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"draw"
+        }
+        ,
+
+        {
+            "id":38,
+            "title":"Learn Drawing 2022",
+            "image":"images/draw3.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"draw"
+        }
+        ,
+
+        {
+            "id":39,
+            "title":"Learn Drawing 2022",
+            "image":"images/draw4.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"draw"
+        }
+        ,
+
+        {
+            "id":40,
+            "title":"Learn Drawing 2022",
+            "image":"images/draw5.jpg",
+            "instrutorName":"Avinash Jain, The Codex",
+            "rate":4.4,
+            "price":"E£400.99",
+            "category":"draw"
         }
 
 
