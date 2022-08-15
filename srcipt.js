@@ -16,7 +16,7 @@ function getCoursesFromServe(checkCategory){
         json.map(data=>{
             //console.log(data.title)
             if(checkCategory===data.category)
-            containerSelector.appendChild(DrawCard(data.title,data.image,data.instrutorName));
+            containerSelector.appendChild(DrawCard(data.title,data.image,data.instrutorName,data.category));
         })
     })
 }
@@ -28,7 +28,7 @@ function getCoursesFromServe(checkCategory){
 // create div for course
 
 
-function DrawCard(title,image,instrutorName){
+function DrawCard(title,image,instrutorName,alter){
 
     let d=document.createElement('div');
     d.classList.add("coursesImg");
@@ -37,7 +37,7 @@ function DrawCard(title,image,instrutorName){
                 
     <div class="coursephotot">
         
-       <img src="${image}" >
+       <img src="${image}" alt="${alter}">
     </div>
     
     <div class="course_details">
