@@ -438,6 +438,7 @@ width: 100%;
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-left:66px ;
     }
     .befor_course{
 
@@ -445,7 +446,7 @@ width: 100%;
         justify-content: center;
         flex-direction: column;
         height: 216px;
-        margin-top: 2px;
+        margin-top: 11px;
 
     }
 
@@ -462,6 +463,8 @@ width: 100%;
     .justHeader{
         
         font-size: 1.7rem;
+        margin-left: -153px;
+
     }
     
 
@@ -560,7 +563,7 @@ width: 100%;
     .justHeader{
         
         font-size: 1.7rem;
-        margin-left: 31px;
+        margin-left: -54px;
         width: 69%;
     }
     
@@ -638,6 +641,7 @@ width: 100%;
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+        margin-left: -192px;
     }
     .befor_course{
 
@@ -663,6 +667,7 @@ width: 100%;
         
         font-size: 2.2rem;
         width: 97%;
+        margin-left: -143px;
     }
     
 
